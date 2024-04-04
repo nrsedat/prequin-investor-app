@@ -51,6 +51,7 @@ const Investor = () => {
           labelId="asset-class-select-label"
           id="asset-class-select"
           value={assetClass}
+          label="Asset Class"
           onChange={handleChange}
         >
           {Object.keys(ASSET_CLASSES).map((assetKey) => (
